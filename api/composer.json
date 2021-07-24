@@ -1,0 +1,12 @@
+{
+    "name": "id90/test",
+    "description": "API for ID90 Challenge",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dario",
+            "email": "g.dario2007@gmail.com"
+        }
+    ],
+    "require": {}
+}
