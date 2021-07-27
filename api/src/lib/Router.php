@@ -51,4 +51,8 @@ class Router
 
     return call_user_func($callback);
   }
+
+  public function routes() {
+    return $this->routes;
+  }
 }
