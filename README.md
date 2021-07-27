@@ -24,7 +24,11 @@ Within the `ui` folder un the following commands:
 - `GET` http://localhost/api/config
 - `GET` http://localhost/api/search
 
-### 03. Further Improvements
+### 03. API Tests
+You can run PHPUnit test with the following command (make sure you are on the root folder):
+- `docker-compose exec php-fpm sh -c "cd api; ./vendor/bin/phpunit tests --testdox"`
+
+### 04. Further Improvements
 For the Backend:
 - Add ValidationService to valide requests
 - Add Authorization Middleware
